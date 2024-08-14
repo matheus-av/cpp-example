@@ -3,7 +3,7 @@
 #include "library_b.hpp"
 
 int main() {
-  std::cout << library_a_namespace::library_function();
-  std::cout << library_b_namespace::library_function();
+  std::cout << a::library_function();
+  std::cout << b::library_function();
   return 0;
 }

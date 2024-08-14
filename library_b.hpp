@@ -1,6 +1,5 @@
 #include <string>
-#include "library_b.cpp"
 
-namespace library_b_namespace {
+namespace b {
   std::string library_function();
 }

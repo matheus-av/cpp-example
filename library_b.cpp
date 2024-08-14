@@ -1,7 +1,6 @@
 #include <string>
+#include "library_b.hpp"
 
-namespace library_b_namespace {
-  std::string library_function() {
-    return "string from library_b()\n";
-  }
+std::string b::library_function() {
+  return "B\n";
 }
